@@ -5,7 +5,8 @@ name: github pages deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      - "main"
     paths:
       - "src/**"
 jobs:
