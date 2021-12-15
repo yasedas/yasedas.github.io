@@ -6,6 +6,8 @@ name: github pages deploy
 on:
   push:
     branches: [ main ]
+    paths:
+      - "src/**"
 jobs:
   build:
     runs-on: ubuntu-latest
